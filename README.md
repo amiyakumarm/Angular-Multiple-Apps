@@ -28,15 +28,20 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-## https://angular.io/guide/file-structure
-## https://www.tektutorialshub.com/angular/how-to-check-angular-cli-version/
+https://angular.io/guide/file-structure
+https://www.tektutorialshub.com/angular/how-to-check-angular-cli-version/
 
-## https://dev.to/pkdev/create-angular-apps-with-shared-library-2dl6
-## https://www.tektutorialshub.com/angular/angular-multiple-apps-in-one-project/
+https://dev.to/pkdev/create-angular-apps-with-shared-library-2dl6
+https://www.tektutorialshub.com/angular/angular-multiple-apps-in-one-project/
+
+## Setup Steps
 
 ng new MultipleApps --createApplication="false"
+
 cd MultipleApps  
+
 ng generate application gettingStarted 
+
 ng generate application exampleApp
 
 Add Another Project to the workspace
@@ -44,39 +49,34 @@ To create another app, run the ng generate application again.
 
 ng generate application exampleApp
  
-Run the App
+## Run the App
+
 And use the ng serve to run it
- 
 ng serve exampleApp
 OR
 ng serve --project="exampleApp"
  
-Run the App
-There are three ways in which you can run the app.
+## Run the App
 
+There are three ways in which you can run the app.
 Use the ng serve gettingStarted
 Use the --project flag ng serve --project="gettingStarted"
 Open the angular.json and locate the defaultProject and change the name of the project to gettingStarted and run ng serve
 
 
-Building the App for Production
+## Building the App for Production
+
 Use ng build to build the app with --project option.
 ng build --prod --project="gettingStarted"
 ng build --prod --project="exampleApp"
 
+## Generate angular library
 
-
-Generate angular library
 ng generate library my-library
 Remember to run upcoming commands from your workspace folder.
-
 This command creates an angular library and makes an entry in angular.json which is generated previously.
-
 All the applications and library created will be placed under the projects folder in the workspace.
-
-
 It creates entry for library under projects key. Important keys are
-
 "projectType" is library
 "root" is path to library folder
 "sourceRoot" is src folder path in your library

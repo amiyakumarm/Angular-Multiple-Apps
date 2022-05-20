@@ -28,11 +28,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-# https://angular.io/guide/file-structure
-# https://www.tektutorialshub.com/angular/how-to-check-angular-cli-version/
+## https://angular.io/guide/file-structure
+## https://www.tektutorialshub.com/angular/how-to-check-angular-cli-version/
 
-# https://dev.to/pkdev/create-angular-apps-with-shared-library-2dl6
-# https://www.tektutorialshub.com/angular/angular-multiple-apps-in-one-project/
+## https://dev.to/pkdev/create-angular-apps-with-shared-library-2dl6
+## https://www.tektutorialshub.com/angular/angular-multiple-apps-in-one-project/
 
 ng new MultipleApps --createApplication="false"
 cd MultipleApps  

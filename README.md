@@ -98,6 +98,9 @@ It creates entry for library under projects key. Important keys are
 "architect" property holds an configuration object for build, test and lint.
 
 All this is for the library in the project.
-Other important commands
+
+# Other important commands
+
 ng build my-library --prod // build production version of the library 
+
 ng build my-library --watch // watch for any changes in library and build after changes are saved 

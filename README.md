@@ -59,27 +59,40 @@ ng serve --project="exampleApp"
 ## Run the App
 
 There are three ways in which you can run the app.
+
 Use the ng serve gettingStarted
+
 Use the --project flag ng serve --project="gettingStarted"
+
 Open the angular.json and locate the defaultProject and change the name of the project to gettingStarted and run ng serve
 
 
 ## Building the App for Production
 
 Use ng build to build the app with --project option.
+
 ng build --prod --project="gettingStarted"
+
 ng build --prod --project="exampleApp"
 
 ## Generate angular library
 
 ng generate library my-library
+
 Remember to run upcoming commands from your workspace folder.
+
 This command creates an angular library and makes an entry in angular.json which is generated previously.
+
 All the applications and library created will be placed under the projects folder in the workspace.
+
 It creates entry for library under projects key. Important keys are
+
 "projectType" is library
+
 "root" is path to library folder
+
 "sourceRoot" is src folder path in your library
+
 "architect" property holds an configuration object for build, test and lint.
 
 All this is for the library in the project.
